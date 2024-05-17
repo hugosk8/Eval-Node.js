@@ -1,0 +1,17 @@
+extends layout.pug
+
+block styles
+    link(rel='stylesheet', href="/style", type="text/css")
+
+block script 
+    script(src='/deleteStudent')
+
+block content 
+    h1 Students list
+    ul.list 
+        each student in students 
+            li
+                .studentInfos
+                    h2= student.name 
+                    p= student.formattedBirth
+                button.delete-button(type="button") ❌

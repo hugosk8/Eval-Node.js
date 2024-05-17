@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block styles
+    link(rel='stylesheet', href="/style", type="text/css")
+
+block content
+    form(action="/addStudent" method="POST") 
+        div
+            label(for="name") Name
+                input(id="name" name="name" type="text" required)
+            br
+            label(for="birth") Date of birth
+                input(id="birth" name="birth" type="date" required)
+        button(type="submit") Ajouter
+    
+    

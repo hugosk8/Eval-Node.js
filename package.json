@@ -1,0 +1,29 @@
+{
+  "name": "fsd46-s1-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brasero/FSD46-node-s1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brasero/FSD46-node-s1/issues"
+  },
+  "homepage": "https://github.com/Brasero/FSD46-node-s1#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2"
+  }
+}
